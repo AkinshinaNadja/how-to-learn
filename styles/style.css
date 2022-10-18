@@ -33,7 +33,7 @@
   color: #000000;
   line-height: 96px;
   font-size: 102px;
-  font-weight: bold;
+  font-weight: 600;
 }
 .header__subtitle{
   position: absolute;
@@ -41,6 +41,9 @@
   bottom: 30px;
   width: 388px;
   color: #000000;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
 }
 .header__link{
   color: #044cad;
