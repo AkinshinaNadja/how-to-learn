@@ -46,8 +46,10 @@
   font-weight: normal;
 }
 .header__link{
-  color: #044cad;
-  text-decoration: none;
+  color: #2f80ed ;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
   transition: opacity .3s ease;
 }
 .header__link:hover {
@@ -61,7 +63,6 @@
   bottom: 0;
   z-index: 1;
 }
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -69,6 +70,49 @@
   position: absolute;
   top: 64px;
   right:0;
+}
+.description {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  }
+.two-columns{
+  display: flex;
+  width: 80%;
+  /*  justify-content: center;*/
+  justify-content: space-between;
+}
+.twe-columns__brief{
+  margin: 0;
+  padding:0;
+  width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+  }
+.two-columns__main-text{
+  margin: 0;
+  padding: 0;
+  width: 80%;
+  min-width: 784px;
+}
+.two-columns__paragraph{
+  padding: 0;
+  margin: 0 0 30px 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+.two-columns__paragraph:last-child {
+  margin: 0;
+}
+.two-colums__span-accent{
+  margin: 0;
+  padding: 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 /* и элемента с модификатором вида ключ-значение */
