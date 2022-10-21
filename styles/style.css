@@ -20,16 +20,18 @@
 }
 
 .logo{
+  display: flex;
   position: absolute;
+
 }
 .logo_place_header {
-
   left: 64px;
   top: 30px;
   width: 228px;
   height: 32px;
   z-index: 2; /* надо?*/
 }
+
 
 .header__title {
    margin: 0;
@@ -135,7 +137,7 @@
 }
 
 
-
+/*3 блок*/
 .digits {
   display: flex;
   flex-direction: column;
@@ -303,38 +305,13 @@
     margin-top: 80px;
   }
   .kaufman__triangle {
-    width: 877px;
-    height: 877px;
-    position: absolute;
-    top: 0;
-    right: -210px;
-    background-image: url(../../../images/kaufman-triangle.svg);
-    background-repeat: no-repeat;
+  width: 877px;
+  height: 877px;
+  position: absolute;
+  top: 0;
+  right: -210px;
+  background-image: url(../../../images/kaufman-triangle.svg);
+  background-repeat: no-repeat;
 
   }
 
-/* Footer */
-.footer {
-  min-height: 350px;
-  display: flex;
-  flex-basis: 711px;
-  box-sizing: border-box;  /*неувеличение размера*/
-  padding: 60px 0 40px 0;
-  background-color: #1f1f1f;
-  border: #2f80ed 1px solid;
-  align-items: center;
-  position: relative;
-  overflow: hidden;
-}
-
-
-  b
-
-
-.logo_place_footer{
-  width: 228px;
-  height: 32px;
-  position: absolute;
-  z-index: 3;
-
-}

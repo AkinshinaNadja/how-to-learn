@@ -9,15 +9,17 @@
   <link rel="normalize" href="./styles/normalize.css">
 </head>
 <body class="page">
+  <!--Шапка-->
   <header class="header">
-      <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Лого Яндекс Практикум">
-      <h1 class="header__title">Научиться учиться</h1>
-      <p class="header__subtitle">Какие современные и эффективные подходы к обучени вы можете использовать в своей жизни?
-        <a class="header__link" href="#">Узнать &#8594; </a>
-      </p>
-      <img class="header__main-illustration"src="./images/header-image.png" alt="Опять двойка">
-      <div class="header__square-pic"></div>
+    <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Лого Яндекс Практикум">
+    <h1 class="header__title">Научиться учиться</h1>
+    <p class="header__subtitle">Какие современные и эффективные подходы к обучени вы можете использовать в своей жизни?
+      <a class="header__link" href="#">Узнать &#8594; </a>
+    </p>
+    <img class="header__main-illustration"src="./images/header-image.png" alt="Опять двойка">
+    <div class="header__square-pic"></div>
   </header>
+  <main class="content">
     <section class="description">
       <article class="two-columns">
         <h2 class="twe-columns__brief">Главные проблемы в обучении</h2>
@@ -128,14 +130,36 @@
           </li>
         </ul>
         <div class="kaufman__triangle"></div>
-    </section>
-    <footer class='footer'>
-      <div class="footer__column"></div> <!--Блок footer, элемент columns -->
-        <div class="footer__column footer__column_copyright"></div>
-          <img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="Логотип Яндекс Практикум">
-          <p class="footer__author"></p>
+   </section>
+  </main>
+  <!--Блок footer-->
+  <footer class="footer">
+    <div class="">
+      <div class="footer__column footer__column_content_copyright">
+        <img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="Логотип Яндекс Практикум">
+        <p class="footer__author">&copy; 2019. Виктор Абанькин</p>
+      </div>
 
+        <nav class="footer__column footer__column_content_info">
+        <h3 class="footer__column-heading">О Практикуме</h3>
+        <ul class="footer__column-links">
+          <li><a class="footer__column-link" href="https://praktikum.yandex.ru/" target="_blank" rel="noopener">Главная</a></li>
+          <li><a class="footer__column-link" href="#" target="_blank" rel="noopener">Концепция</a></li>
+          <li><a class="footer__column-link" href="#" target="_blank" rel="noopener">Наставники</a></li>
+        </ul>
 
-    </footer>
+      </nav>
+      <nav class="footer__column footer__column_content_social">
+        <h3 class="footer__column-heading">Соцсети</h3>
+        <ul class="footer__column-links">
+          <li><a class="footer__column-link" href="#" target="_blank" lang="en" rel="noopener"><img class="footer__social-icon" src="./images/youtube-icon.svg" alt="Иконка YouTube">YouTube</a></li>
+          <li><a class="footer__column-link" href="#" target="_blank" rel="noopener"><img class="footer__social-icon" src="./images/vk_color_white.svg" alt="Иконка ВКонтакте">ВКонтакте</a></li>
+          <li><a class="footer__column-link" href="#" target="_blank" lang="en" rel="noopener"><img class="footer__social-icon" src="./images/tiktok-icon.svg" alt="Иконка TikTok">TikTok</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </footer>
+
 </body>
 </html>
