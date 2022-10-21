@@ -18,18 +18,15 @@
   overflow: hidden;
   /* выше установили ограничения для секции */
 }
-
 .logo{
   display: flex;
   position: absolute;
-
 }
 .logo_place_header {
-  left: 64px;
+
   top: 30px;
-  width: 228px;
-  height: 32px;
-  z-index: 2; /* надо?*/
+  left: 64px;
+  z-index: 2;
 }
 
 
@@ -234,6 +231,7 @@
     flex-direction: column;
     padding-top: 100px;
     align-items: center;
+    box-sizing: border-box;
 }
 
 
@@ -316,86 +314,84 @@
 
   }
  /*Footer*/
-  .footer {
-    min-height: 350px;
-    background-color:#1f1f1f;
-    color:white;
-    padding-top: 60px;
-    padding-bottom: 40px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
 
+ .footer {
+  min-height: 350px;
+  box-sizing: border-box;
+  padding: 60px 0 40px 0;
+  display: flex;
+  justify-content: center;
+  background-color: #1f1f1f;
+}
 
-  }
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
 
-  .footer__columns {
-    width: 90%;
-    position: relative;
-    display: flex;
-    justify-content:space-between;
-    align-items:center;
-
-  }
-
-
-  .footer__columns_content_info {
-    display: flex;
-    flex-direction: column;
-
-  }
-
-  .footer__column-heading {
-    line-height: 30px;
-    font-style: normal;
-    font-size: 18px;
-    margin-bottom: 20px;
-  }
-
-  .footer__column-links {
-    list-style: none;
-    line-height: 30px;
-    font-size: 18px;
-    font-style: normal;
-    margin-bottom: 16px;
-    display: flex;
-    flex-direction: column;
-
-  }
-
-  .column-link {
-    text-decoration: none;
-  }
-
-  .footer__columns_content_social {
-    display: flex;
-    flex-direction: column;
-    align-items:flex-end;
-
-  }
-
-  .footer__social-picture {
-    min-height: 16px;
-    width: 16px;
-    padding-right: 10px;
-  }
-
-  .footer__columns_content_copyright {
-    flex-basis: 711px;
-    display: flex;
-    flex-direction: column;
-    justify-content:space-between;
-  }
-
-  .footer__author {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    margin-bottom: 18px;
-  }
+}
+.footer__author {
+  left: 0;
+  bottom: 0;
+  margin: 18px 0;
+  padding: 0;
+  color: white;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  box-sizing: content-box;
+  position: absolute;
+}
 
   .logo_place_footer {
     width: 228px;
     height: 32px;
-    background-size: contain;
+
   }
+
+
+.footer__column-heading {
+  margin: 0;
+  padding: 0;
+  color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+
+}
+
+
+
+.footer__column-links {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0 16px 0;
+  list-style: none;
+  padding: 0;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__columns {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
