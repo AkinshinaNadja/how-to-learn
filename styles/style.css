@@ -269,6 +269,7 @@
   color: #2f80ed;
   border: #2f80ed 1px solid;
 }
+ /*Kaufman*/
 
 .kaufman {
   position: relative;
@@ -314,15 +315,17 @@
   background-repeat: no-repeat;
 
   }
-
+ /*Footer*/
   .footer {
     min-height: 350px;
-    /* background-color:#1f1f1f;
-    color:white; */
+    background-color:#1f1f1f;
+    color:white;
     padding-top: 60px;
     padding-bottom: 40px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+
 
   }
 
@@ -332,6 +335,7 @@
     display: flex;
     justify-content:space-between;
     align-items:center;
+
   }
 
 
