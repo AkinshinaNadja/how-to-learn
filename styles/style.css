@@ -55,7 +55,7 @@
 }
 
 .header__link {
-  color: #2f80ed ;
+  color: #2f80ed;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -276,7 +276,7 @@
 
   .section-title_theme_dark {
     color: white;
-    width:60% ;
+    width:60%;
   }
 
   .section-subtitle_theme_dark {
